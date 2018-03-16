@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "feng-xin",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": [
+      "en",
+      "zh-cn"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.1",
+    "packageFolder": "io/github/jhipster/application",
+    "jwtSecretKey": "83a16976a17cc77f67800a77d6aca63b5eb021b4",
+    "jhiPrefix": "jhi"
+  }
+}
